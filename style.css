@@ -63,12 +63,12 @@ body {
 .marco-container {
     position: relative;
     display: inline-block;
-    padding: 20px;
+    padding: 40px;
 }
 
 .marco-imagen {
     width: 100%;
-    max-width: 300px;
+    max-width: 500px;
     height: auto;
     display: block;
     margin: 0 auto;
@@ -157,7 +157,7 @@ body {
 
 .biblico-imagen {
     width: 100%;
-    max-width: 400px; /* Aumentado de 300px */
+    max-width: 550px; /* Aumentado de 300px */
     height: auto;
     margin: 0 auto;
     display: block;
