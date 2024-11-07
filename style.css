@@ -42,7 +42,7 @@ body {
     width: 100%;
     text-align: center;
     overflow: hidden;
-    background-image: url('/Users/allisonjuarez/Desktop/fondoflores.jpeg');
+    background-image: url('fondoflores.jpeg');
     background-size: 100% 100%;
     background-position: center;
     background-repeat: no-repeat;
