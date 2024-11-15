@@ -41,7 +41,7 @@ function openMap() {
 
 // Función para confirmar asistencia
 function confirmAssistance() {
-    const phoneNumber = '50235435006';
+    const phoneNumber = '50234231245';
     const message = encodeURIComponent('¡Hola! Quiero confirmar mi asistencia a su boda.');
     const whatsappUrl = `https://wa.me/${phoneNumber}?text=${message}`;
     window.open(whatsappUrl, '_blank');
