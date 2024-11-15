@@ -102,7 +102,7 @@ body {
 
 .imagen-principal {
     width: 100%;
-    max-width: 700px;
+    max-width: 900px;
     height: auto;
     border-radius: 0px;
     margin: 0 auto;
@@ -117,12 +117,12 @@ body {
 }
 
 .imagen-completa {
-    margin: 20px auto;
+    margin: 40px auto;
     width: 100%;
 }
 
 .imagen-ancha {
-    width: 100%;
+    width: 300%;
     height: auto;
     display: block;
     margin: 0 auto;
@@ -157,7 +157,7 @@ body {
 
 .biblico-imagen {
     width: 100%;
-    max-width: 450px;
+    max-width: 550px;
     height: auto;
     margin: 0 auto;
     display: block;
@@ -240,7 +240,7 @@ body {
 
 .dress-code {
     margin-top: 15px;
-    margin-bottom: 15px;
+    margin-bottom: 10px;
     padding: 10px 20px;
     font-family: 'Montserrat', sans-serif;
     font-size: 1rem;
@@ -251,7 +251,7 @@ body {
 }
 
 .dress-code p {
-    font-size: 1.2rem;
+    font-size: 0.8rem;
     color: var(--secondary-color);
     font-family: 'Montserrat', sans-serif;
     margin: 0;
@@ -263,7 +263,7 @@ body {
 }
 
 .ceremonia-imagen {
-    width: 100%;
+    width: 300%;
     max-width: 100%;
     height: auto;
     border-radius: 6px;
