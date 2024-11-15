@@ -81,7 +81,7 @@ body {
     transform: translate(-50%, -50%);
     font-family: 'Playfair Display', serif;
     color: var(--primary-color);
-    font-size: 1.5rem;
+    font-size: 2.5rem;
     line-height: 1;
     margin: 0;
     padding: 0;
@@ -91,7 +91,7 @@ body {
 
 .ampersand {
     display: block;
-    font-size: 1.8rem;
+    font-size: 2rem;
     margin: 0.3rem 0;
 }
 
@@ -102,7 +102,7 @@ body {
 
 .imagen-principal {
     width: 100%;
-    max-width: 700px;
+    max-width: 800px;
     height: auto;
     border-radius: 0px;
     margin: 0 auto;
@@ -157,7 +157,7 @@ body {
 
 .biblico-imagen {
     width: 100%;
-    max-width: 450px;
+    max-width: 600px;
     height: auto;
     margin: 0 auto;
     display: block;
@@ -214,7 +214,8 @@ body {
 }
 
 .anillos-imagen {
-    width: 300px;
+    width: 100%;
+    max-width: 400px;
     height: auto;
     margin: 0 auto;
     display: block;
@@ -264,10 +265,10 @@ body {
 
 .ceremonia-imagen {
     width: 100%;
-    max-width: 100%;
+    max-width: 800px;
     height: auto;
     border-radius: 6px;
-    margin: 10 auto;
+    margin: 10px auto;
     display: block;
 }
 
@@ -332,22 +333,42 @@ button:hover {
 
 @media (max-width: 480px) {
     .container {
-        padding: 20px;
+        padding: 10px;
     }
 
     .invitation-card {
         margin: 0;
+        padding: 10px;
+    }
+
+    .invitation-content {
+        padding: 20px;
+        margin: 10px;
     }
 
     .nombres {
         font-size: 2rem;
     }
 
+    .ampersand {
+        font-size: 1.8rem;
+    }
+
     .invitation-message {
-        font-size: 1.2rem;
+        font-size: 1.4rem;
+        line-height: 1.8;
     }
 
     .wedding-date {
         font-size: 1.8rem;
+    }
+
+    .imagen-principal,
+    .imagen-ancha,
+    .biblico-imagen,
+    .anillos-imagen,
+    .ceremonia-imagen {
+        max-width: 100%;
+        margin: 10px auto;
     }
 }
