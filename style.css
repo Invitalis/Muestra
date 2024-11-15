@@ -117,7 +117,7 @@ body {
 }
 
 .imagen-completa {
-    margin: 20px -18px;
+    margin: 20px 18px;
     width: calc(100% + 80px);
 }
 
